@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Bitcoin",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [ "jquery.js", "content.js" ]
+    }
+  ],
+  "background": {
+    "scripts": [ "jquery.js", "background.js" ]
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "clipboardWrite",
+    "http://localhost:8545/",
+    "http://localhost:8332/",
+    "https://*.infura.io/",
+    "activeTab",
+    "webRequest",
+    "*://*.eth/",
+    "*://*/*",
+    "notifications"
+  ],
+  "browser_action": {
+	"default_title": "Bitcooin",
+    "default_icon": "icon-32.png",
+    "default_popup": "popup.html"
+   }
+	
+}

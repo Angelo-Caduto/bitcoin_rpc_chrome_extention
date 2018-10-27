@@ -1,0 +1,92 @@
+.body {
+    width:420px;
+    height:570px;
+}
+.menu {
+    font-size: 15px;
+}
+.content {
+    width:100%;
+    height:500px;
+    font-size: 15px;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+.error{
+    font-size: 15px;
+    color: darkred;
+}
+.result{
+    font-size: 15px;
+    color: blue;
+}
+.title {
+    font-size: 2em;
+    color: black;
+}
+.label {
+    font-weight: bold;
+    color: black;
+}
+.full_width {
+    width: 98%;
+}
+.info {
+    color: limegreen;
+}
+.scroll_view {
+    overflow: auto;
+}
+.button {
+    padding: 10px 20px;
+    margin: 15px;
+    background: #F7861C;
+    box-shadow: 0px 3px 6px rgba(247, 134, 28, 0.36);
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Montserrat Regular';
+    text-transform: uppercase;
+    border: none;
+    box-sizing: border-box;
+    -webkit-writing-mode: horizontal-tb !important;
+    -webkit-appearance: button;
+    align-items: flex-start;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+}
+
+.output_text {
+    word-break: break-all;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
