@@ -4,7 +4,7 @@
 docker build -t bitcoind
 
 ### Running docker container
-docker run -t -i -p 19001:19001 -p 19011:19011 bitcoin-testnet-box
+docker run -t -i -p 19001:19001 -p 19011:19011 bitcoind
 
 ### Start bitcoin
 make start
