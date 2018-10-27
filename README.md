@@ -34,8 +34,8 @@ make start
 ### Send bitcoins to
 ![alt text](https://raw.githubusercontent.com/Angelo-Caduto/bitcoin_rpc_chrome_extention/master/img/Screenshot_4.png)
 
-### Transaction
+### Create transaction
 ![alt text](https://raw.githubusercontent.com/Angelo-Caduto/bitcoin_rpc_chrome_extention/master/img/Screenshot_5.png)
 
-### Keys
+### Dump or import keys
 ![alt text](https://raw.githubusercontent.com/Angelo-Caduto/bitcoin_rpc_chrome_extention/master/img/Screenshot_6.png)
